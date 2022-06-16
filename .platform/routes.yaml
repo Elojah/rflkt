@@ -1,0 +1,8 @@
+# Each route describes how an incoming URL is going to be processed by Platform.sh.
+"https://www.testplatformsh/":
+    type: upstream
+    upstream: "app:http"
+
+"https://testplatformsh/":
+    type: redirect
+    to: "https://www.testplatformsh/"
