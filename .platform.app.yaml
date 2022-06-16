@@ -10,7 +10,7 @@ name: app
 # to find the supported versions for the 'golang' type.
 type: 'golang:1.18'
 
-
+disk: 256
 # The following block defines a single writable directory, 'web/uploads'
 # The 'source' specifies where the writable mount is. The 'local' source
 # indicates that the mount point will point to a local directory on the
